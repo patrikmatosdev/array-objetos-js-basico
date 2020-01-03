@@ -38,3 +38,34 @@ console.log(frutas.length);
   console.log(meuArray[2].cidade);
 ````
 
+# Métodos de Arrays 
+
+>## Concatenação
+
+-
+```javascript
+  let array1 = [1, 2, 3, 4, 5];
+  let array2 = ['a', 'b', 'c'];
+
+  let arrayFinal = array1.concat(array2);
+
+  console.log(arrayFinal);
+```
+>## Every
+
+- O método every percorre todo o array, no caso o arrayFinal, para verificação do tipo do Elemento.
+
+- Os Elementos estao sendo comparado se o tipo do array esta dando valor como 'number', sendo assim irá retornar false.
+
+````javascript
+
+  let everyArray = arrayFinal.every(
+    function verificarElementos(elemento,       indice, objeto){
+        return(typeof elemento === 'number');
+    }
+  )
+
+console.log(arrayFinal);
+console.log(everyArray);
+
+````
