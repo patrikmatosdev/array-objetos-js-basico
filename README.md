@@ -60,8 +60,8 @@ console.log(frutas.length);
 
 ````javascript
 
-  let everyArray = arrayFinal.every(
-    function verificarElementos(elemento,       indice, objeto){
+let everyArray = arrayFinal.every(
+  function verificarElementos(elemento,  indice, objeto){
         return(typeof elemento === 'number');
     }
   )
