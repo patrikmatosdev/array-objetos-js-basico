@@ -42,7 +42,8 @@ console.log(frutas.length);
 
 >## Concatenação
 
--
+- Ele transforma os valores de 2 Arrays em um só.
+
 ```javascript
   let array1 = [1, 2, 3, 4, 5];
   let array2 = ['a', 'b', 'c'];
